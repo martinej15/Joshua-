@@ -2,8 +2,8 @@
 public class mississippi {
 
 	public static void main(String[] args) {
-		System.out.println(m() + m());
-		/*i();
+		m();
+		i();
 		s();
 		s();
 		i();
@@ -12,26 +12,19 @@ public class mississippi {
 		i();
 		p();
 		p();
-		i();*/
+		i();
 	}
 	
-	public static String m ()
+	public static void m ()
 	{
-		/*System.out.println("M     M");
+		System.out.println("M     M");
 		System.out.println("MM   MM");
 		System.out.println("M M M M");
 		System.out.println("M  M  M");
 		System.out.println("M     M");
 		System.out.println("M     M");
-		System.out.println("M     M \n");*/
-		String m =  "M     M\n" +
-			        "MM   MM\n" +
-			        "M M M M\n" +
-			        "M  M  M\n" +
-			        "M     M\n" +
-			        "M     M\n" +
-			        "M     M\n";
-		return m;
+		System.out.println("M     M \n");
+		
 
 	}
 
